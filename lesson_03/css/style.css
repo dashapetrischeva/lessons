@@ -1,0 +1,55 @@
+@import url("reset.css");
+
+/* Вкладеність */
+
+.nesting > ul > li{
+	color:red;
+} 
+.nesting > ul > li ~ li{
+	color:green;
+}
+.nesting > ul li ul > li{
+	color:blue;
+}
+.nesting > ul li ul > li ~ li{
+	color:orange;
+}
+.nesting > ul li ul > li > span{
+	color:#a0f0fc;
+}
+.nesting > ul li ul li ol > li{
+	color:#4597f7;
+} 
+.nesting > ul li ul li ol > li ~ li{
+	color:#5d5d5d;
+}
+	
+
+/* Стаття */
+*{
+	color:#5d5d5d
+}
+h2{
+	color:blueviolet;
+}
+.footer-content{
+	color:chartreuse;
+}
+#block-5 p{
+	color:firebrick;
+}
+[class*="s-i"]{
+	color:aquamarine;
+}
+a.header-logo{
+	color:deeppink;
+} 
+.footer-content, .header-logo{
+	color:darkviolet;
+}
+.block-text p{
+	color:deepskyblue;
+}
+.block-text-title + p{
+	color:darksalmon;
+}
