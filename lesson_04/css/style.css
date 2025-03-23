@@ -1,0 +1,72 @@
+@import url("fonts.css");
+@import url("reset.css");
+body{
+	font-family: "SegoeScript", cursive;
+	font-size: 17px;
+	
+	color:#00008b;
+}
+.header-logo{
+	font-weight: 700;
+	text-shadow: -5px 5px 1px #ff0000,  5px 5px 1px #8a2be2;
+}
+h1{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	font-style: italic;
+	line-height: 2;
+	letter-spacing: 10px;
+
+}
+#block-1{
+	font-family: "Winky", sans-serif;
+	font-style: oblique;
+	color:rgba(138, 0, 90, 0.331);
+	text-align: center;
+	text-transform: capitalize;
+}
+#block-2{
+	text-align: justify;
+	text-transform: lowercase;
+}
+#block-3{
+	word-spacing: 20px;
+	white-space: nowrap;
+}
+#block-4{
+	text-align: right;
+	text-transform: uppercase;
+}
+.wavy{
+	text-decoration: underline;
+	text-decoration-color:#00008b;
+	text-decoration-style: wavy;
+}
+.dashed{
+	text-decoration: overline;
+	text-decoration-color:#dc143c;
+	text-decoration-style: dashed;
+	
+}
+.dotted{
+	text-decoration: underline;
+	text-decoration-color:#006400;
+	text-decoration-style: dotted;
+}
+.double{
+	text-decoration: line-through;
+	text-decoration-color:#8a2be2;
+	text-decoration-style: double;	
+}
+.ecobazar{
+	font-family:"Poppins", sans-serif;
+	font-size: 18px;
+	color:#1A1A1A;
+	line-height: 1.5;
+}
+.ecobazar-title{
+	font-weight:500;
+	font-size: 20px;
+}
+
