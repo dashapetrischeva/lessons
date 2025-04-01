@@ -1,0 +1,302 @@
+
+@import url("fonts.css");
+@import url("reset.css");
+body{
+	font-family:"Roboto", sans-serif;
+	font-size: 17px;
+}
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+}
+
+.article .container{
+	max-width: 600px;
+	margin:0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../img/neurografic-art.jpg");
+	margin-bottom:40px;
+}
+h1{
+	margin-bottom: 20px;
+	font-size: 36px;
+	font-weight: 700;
+}
+#block-1{
+	border:2px solid #ff1493;
+	margin-bottom: 20px;
+	padding:15px;
+	background-color: #fff;
+
+}
+.block1-link{
+	color:#ff8c00;
+	border-bottom: 1px dotted;
+}
+.block-text-img{
+	margin-bottom: 20px;
+}
+#block-2{
+	border-bottom: 5px dashed  #00ced1;
+	margin-bottom: 20px;
+	padding:15px;
+	background-image: url("../img/neurografic-art.jpg");
+	background-size: cover;
+}
+#block-3{
+	border-left: 5px double #000000;
+	margin-bottom: 20px;
+	padding:15px;
+	background: linear-gradient(350deg, rgba(255,0,144,1) 0%, rgba(255,226,245,1) 49%, rgba(255,0,0,1) 100%);
+}
+#block-4{
+	outline:3px solid #e74040;
+	outline-offset: 10px;
+	margin-bottom: 20px;
+	padding:10px;
+	background-image: url("../img/twitter.png");
+}
+#block-5{
+	border-radius: 10px;
+	background-color:#ff8c00;
+	padding:15px;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 10px 5px #000000;
+}
+#block-6{
+	padding:15px;
+	margin-bottom: 20px;
+	box-shadow: inset 5px 5px 10px 5px #000000;
+	background-image: url("../img/twitter.png");
+	background-repeat: no-repeat;
+	background-position: 10px 20px;
+}
+#block-7{
+	padding:15px;
+	background-image: url("../img/twitter.png");
+	background-repeat:repeat-x;
+	margin-bottom: 20px;
+	box-shadow:
+	  7px 7px 5px 5px #4fff14, 5px 5px 15px 15px #5A54F2;
+}
+#block-8{
+	padding:15px;
+	margin-bottom: 20px;
+	opacity:0.5;
+	background-image: url("../img/twitter.png");
+	background-repeat:repeat-y;
+}
+
+#block-9{
+	padding:15px;
+	margin-bottom: 20px;
+	background-color:#ff8c00;
+	visibility:hidden;
+}
+#block-10{
+	padding:15px;
+	margin-bottom: 20px;
+	background-image: url("../img/twitter.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+	
+}
+#block-11{
+	
+	padding:15px;
+	background-image: url("../img/neurografic-art.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-bottom: 20px;
+}
+
+#block-12{
+	
+	padding:15px;
+	background: #ff1493 url("../img/neurografic-art.jpg") center / 200px no-repeat fixed;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-bottom: 20px;
+}
+#block-13{
+	
+	padding:15px;
+	background:
+		url("../img/twitter.png") center / 35px no-repeat,
+		url("../img/neurografic-art.jpg") 0 0 / 500px no-repeat;
+}
+
+
+
+/* Ecobazar */
+.ecobazar{
+	margin-bottom: 50px;
+}
+.ecobazar-container{
+	max-width:648px;
+	margin:0 auto;
+	font-family: "Poppins", sans-serif;
+}
+.ecobazar-container p{
+	color: #808080;
+	font-size: 14px;
+	line-height: 150%; 
+	margin-bottom: 20px;
+}
+.ecobazar-container .list{
+	margin-bottom: 20px;
+
+}
+.ecobazar-container .list .item{
+	color: #808080;
+	font-size: 14px;
+	line-height: 140%;
+	padding-left: 28px;
+	margin-bottom: 14px;
+	min-height:20px;
+	background: url("../img/check.svg") 0 0 / 20px no-repeat;
+}
+
+
+/* Hydra */
+.hydra{
+	background: #302C42;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.hydra-container{
+	max-width: 1272px;
+   margin:0 auto;
+}
+.hydra-container .items{
+	border-radius: 90px;
+	background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+	box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+	color: #FFF;
+	font-family: "Montserrat", sans-serif;
+	font-size: 0;
+	
+}
+.items .item{
+display:inline-block;
+min-height: 116.5px;
+margin-top: 25px;
+margin-bottom: 25px;
+width:33.3%;
+}
+
+
+.items .item.item-visit{
+	background: url("../img/location.svg") 39px  center / 70px no-repeat;
+	border-right: 1px solid rgba(192, 183, 232, 0.33);
+	
+
+	
+}
+.items .item.item-visit .item-container{
+	margin-left: 109px;
+}
+.items .item.item-call{
+	background: url("../img/phone-call.svg") 47.5px  center / 70px no-repeat;
+	border-right: 1px solid rgba(192, 183, 232, 0.33);
+	
+}
+.items .item.item-call .item-container{
+margin-left: 135.5px;
+
+}
+.items .item.item-send{
+	background: url("../img/mail.svg") 50px  center / 70px no-repeat;
+}
+.items .item.item-send  .item-container{
+	margin-left: 138px;
+}
+
+
+.hydra-container .item-title{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	margin-top: 27px;
+	
+}
+.hydra-container .items .item.item-send .item-title{
+	margin-top: 32px;
+}
+.hydra-container .item-text{
+	font-size: 14px;
+}
+
+.about {
+	font-family: Montserrat;
+	color: #FFF;
+	background: #302C42;
+	padding-bottom: 90px;
+	
+}
+.about-container {	
+	font-size: 0;
+	max-width: 1272px;
+   margin:0 auto;
+	background:url("../img/lines.svg") no-repeat 0 0;
+}
+.about-image {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+.about-image img{
+
+max-width: 524px;
+width: 100%;
+border-radius:  240px 100px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.about-text {
+	font-size: 16px;
+	width: 50%;
+	display: inline-block;
+	line-height: 20px;
+	padding-top: 47px;
+}
+.about-title {
+margin-bottom: 5px;
+line-height: 44px;
+
+font-size: 36px;
+
+font-weight: 700;
+
+}
+.about-subtitle {
+	color: rgba(255, 255, 255, 0.95);
+	margin-bottom: 42px;
+	line-height: 44px;
+font-size: 36px;
+
+font-weight: 300;
+
+}
+.about-button{
+	margin-top: 28px;
+	display:inline-block;
+
+	border-radius: 40px;
+	background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+	color: #343045;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+	padding:15px 40px;
+	line-height: 15px;
+}
+
