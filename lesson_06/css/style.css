@@ -180,12 +180,13 @@ h1{
 	color: #FFF;
 	font-family: "Montserrat", sans-serif;
 	font-size: 0;
+	padding-top: 25px;
 	
 }
 .items .item{
 display:inline-block;
 min-height: 116.5px;
-margin-top: 25px;
+
 margin-bottom: 25px;
 width:33.3%;
 vertical-align: middle;
@@ -195,39 +196,35 @@ vertical-align: middle;
 .items .item.item-visit{
 	background: url("../img/location.svg") 39px  center / 70px no-repeat;
 	border-right: 1px solid rgba(192, 183, 232, 0.33);
-	
+	padding-left: 109px;
 
 	
 }
-.items .item.item-visit .item-container{
-	margin-left: 109px;
+.items .item .item-container{
+	padding-top: 27px;
 }
 .items .item.item-call{
 	background: url("../img/phone-call.svg") 47.5px  center / 70px no-repeat;
 	border-right: 1px solid rgba(192, 183, 232, 0.33);
-	
+	padding-left: 135.5px;
 }
-.items .item.item-call .item-container{
-margin-left: 135.5px;
 
-}
 .items .item.item-send{
 	background: url("../img/mail.svg") 50px  center / 70px no-repeat;
+	padding-left: 138px;
 }
-.items .item.item-send  .item-container{
-	margin-left: 138px;
-}
+
 
 
 .hydra-container .item-title{
 	font-size: 24px;
 	font-weight: 700;
 	margin-bottom: 10px;
-	margin-top: 27px;
+	
 	
 }
 .hydra-container .items .item.item-send .item-title{
-	margin-top: 32px;
+	margin-top: 5px;
 }
 .hydra-container .item-text{
 	font-size: 14px;
@@ -247,15 +244,16 @@ margin-left: 135.5px;
 	background:url("../img/lines.svg") no-repeat 0 0;
 }
 .about-image {
-	width: 50%;
+	/* width: 50%; */
 	display: inline-block;
 	vertical-align: top;
+	padding-right: 108px;
 }
 .about-image img{
 
 max-width: 524px;
 width: 100%;
-border-radius:  240px 100px;
+border-radius: 46% 18%;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -268,26 +266,24 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 	line-height: 20px;
 	padding-top: 47px;
 }
+.about-text p{
+	font-size: 16px;
+	line-height: 1.43;
+	margin-bottom: 28px;
+	
+}
 .about-title {
 margin-bottom: 5px;
 line-height: 44px;
 
 font-size: 36px;
-
-font-weight: 700;
-
-}
-.about-subtitle {
-	color: rgba(255, 255, 255, 0.95);
-	margin-bottom: 42px;
-	line-height: 44px;
-font-size: 36px;
-
+max-width: 192px;
 font-weight: 300;
-
+margin-bottom: 42px;
 }
+
 .about-button{
-	margin-top: 28px;
+	
 	border-radius: 40px;
 	background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
 	color: #343045;
@@ -296,6 +292,6 @@ font-weight: 300;
 	font-weight: 700;
 	text-align: center;
 	padding:15px 40px;
-	line-height: 15px;
+	line-height: 1.25;
 }
 
