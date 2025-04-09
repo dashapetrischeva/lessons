@@ -1,0 +1,74 @@
+
+@import url("reset.css");
+body{
+   font-family: "Fira Sans", sans-serif;  
+	font-size: 17px;
+}
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+	background-color: #f0858b;
+}
+.header-container{
+	max-width: 1050px;
+	margin: 0 auto;
+}
+.header-logo{
+   line-height: 90px;
+   font-size: 20px;
+   color: #fff;
+   font-family: "Bebas Neue", sans-serif;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+.article h1{
+	font-size: 30px;
+	margin-bottom: 30px;
+
+	font-weight: 700;
+}
+.article h2{
+	font-size: 24px;
+	margin-bottom: 20px;
+
+	font-weight: 700;
+}
+.container{
+	background-color: #e8d1d1; 
+	border-radius: 10px;
+	max-width:1050px;
+	margin:0 auto;
+	padding:30px;
+	color:#4b3f3f;
+
+}
+.article p{
+
+	font-size: 20px;
+	font-weight: 300;
+}
+.img-icon{
+	margin-right: 10px;
+}
+.img-content{
+	margin-right: 10px;
+	max-width: 360px;
+}
+
+.block>p:not(:last-child){
+	margin-bottom: 20px;
+}
+.container .block:not(:last-of-type){
+margin-bottom: 30px;
+}
+
+
+.footer-content {
+	font-size: 16px;
+	text-align: left;
+	color: #fff;
+	line-height: 21px;
+	max-width: 1050px;
+   margin: 0 auto;
+   padding: 30px 0px;
+}
