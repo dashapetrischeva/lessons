@@ -51,17 +51,23 @@
 						</p>
 						<p><img src="img/logo.webp" alt="Сontent" class="img-content"><span> - контент, растрове, webp</span>
 						</p>
-						<p><img src="img/man.webp" alt="Сontent" class="img-content"><span> - контент, растрове,
+						<p><img src="img/man.webp" alt="Сontent" class="img-content"><span> - контент, растрове, jpg ~
 								webp</span></p>
-						<p><img src="img/couple.webp" alt="Сontent" class="img-content"><span> - контент, растрове,
+						<p><img src="img/couple.webp" alt="Сontent" class="img-content"><span> - контент, растрове, jpg ~
 								webp</span></p>
-						<p><img src="img/alone.webp" alt="Сontent" class="img-content"><span> - контент, растрове, webp
+						<p><img src="img/alone.webp" alt="Сontent" class="img-content"><span> - контент, растрове, jpg ~ webp
 							</span>
 						</p>
 					</div>
 					<h2>Виведення альтернативних зображень 2x, 3x</h2>
 					<div class="block">
-						<img srcset="img/alone-x2.webp 2x, img/alone-x3.webp 3x" src="img/alone.webp" alt="image">
+						<!-- <img srcset="img/alone-x2.webp 2x, img/alone-x3.webp 3x" src="img/alone.webp" alt="image"> -->
+
+						<picture>
+							<source srcset="img/alone.webp 1x, img/alone-x2.webp 2x, img/alone-x3.webp 3x">
+							<img src="img/alone.webp" alt="image">
+						</picture>
+
 					</div>
 				</div>
 			</div>
