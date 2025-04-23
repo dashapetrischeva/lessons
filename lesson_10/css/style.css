@@ -265,7 +265,7 @@ background: url("../img/check.svg") 0 0 / 25px no-repeat;
 }
 
 .item-featured-products__image {
-	width:254px;
+	width:254px; 
 	height:230px;
 	overflow:hidden;
 	}
@@ -298,7 +298,7 @@ width:100%;
 
 	.item-featured-products__add-to-cart {
 		position:absolute;
-		bottom:23.5px;
+		bottom:23px;
 		right:16px;
 		background-color:#F2F2F2;
 		padding:10px;
