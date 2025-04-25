@@ -237,46 +237,79 @@ background: url("../img/check.svg") 0 0 / 25px no-repeat;
 	text-align:center;
 }
 
-.item-featured-products {	
+.product-card {	
 	display:inline-block;
 	border: 1px solid #E6E6E6;
 	padding:5px;
 	position:relative;
 }
-.item-featured-products:hover{
+.product-card:hover{
 	box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
 	border: 1px solid #2C742F;
 }
-.item-featured-products:hover .item-featured-products__icons{
+.product-card:hover .product-card__icons{
 	opacity:1;
 	visibility:visible;
 }
-.item-featured-products__icons{
+.product-card__icons{
 	max-width:40px;
-	position:absolute;
+	position:absolute; 
 	top:16px;
 	right:16px;
 	opacity:0;
 	visibility:hidden;
 
 }
-.item-featured-products__wishlist{
+.product-card__wishlist{
+	width:40px;
+	height:40px;
+	border-radius: 20px;
+	border: 1px solid #F2F2F2;
+	background-color: #fff;
 	margin-bottom:6px;
+	padding:10px;
+}
+.product-card__quick-view{
+	width:40px;
+	height:40px;
+	border-radius: 20px;
+	background-color: #fff;
+	border: 1px solid #F2F2F2;
+	padding:10px;
+}
+.product-card__add-to-cart:hover{
+	background-color:	#00B207;
+}
+.product-card__wishlist:hover{
+	background-color:	#00B207;
+	border:1px solid #00B207;
+}
+.product-card__quick-view:hover{
+	background-color:	#00B207;
+	border:1px solid #00B207;
 }
 
-.item-featured-products__image {
+.product-card__add-to-cart {
+	position:absolute;
+	bottom:23px;
+	right:16px;
+	background-color:#F2F2F2;
+	padding:10px;
+	border-radius:20px;
+}
+.product-card__image {
 	width:254px; 
 	height:230px;
 	overflow:hidden;
 	}
-	.item-featured-products__image img{
+	.product-card__image img{
 width:100%;
 	}
-.item-featured-products__content{
+.product-card__content{
 	padding:12px 7px;
 
 }
-	.item-featured-products__title {
+	.product-card__title {
 		color: #2C742F;
 
 		font-size: 14px;
@@ -285,25 +318,14 @@ width:100%;
 .title-featured__link:hover{
 	text-decoration: underline;
 }
-	.item-featured-products__price {
+	.product-card__price {
 		color:  #1A1A1A;
 		font-size: 16px;
 		font-weight: 500;
 		line-height: 150%; /* 24px */
 	}
 
-	.item-featured-products__add-to-cart:hover{
-		background-color:	#00B207;
-	}
-
-	.item-featured-products__add-to-cart {
-		position:absolute;
-		bottom:23px;
-		right:16px;
-		background-color:#F2F2F2;
-		padding:10px;
-		border-radius:20px;
-	}
+	
 
 /* Business */
 .section-business {
@@ -317,22 +339,40 @@ width:100%;
 	font-family: "Roboto", sans-serif;
 	position:relative;
 	}
-	.section-business__circles-left{
+	.section-business__item{
+		position:relative;
+	}
+	.section-business__dots-left{
 		position:absolute;
-		top:127px;
-		left:0;
+		top:380px;
+		left:17px;
 
 	}
-	.section-business__circles-right{
+	.section-business__dots-right{
 		position:absolute;
-		top:536px;
-		right:-47px;
+		top:778px;
+		right:-75px;
 	}
-	.section-business__circle-small{
+	.section-business__circle-small-left{
+		position:absolute;
+		top:127px;
+		left:-128px;
+	}
+	.section-business__circle-big-left{
+		position:absolute;
+		top:172px;
+		left:-108px;
+	}
+	.section-business__circle-small-right{
 		position:absolute;
 		z-index:2;
-		top:514px;
-		right:469px;
+		top:-36px;
+		right:273px;
+	}
+	.section-business__circle-big-right{
+		position:absolute;
+		top:-14px;
+		right:-131px;
 	}
 	.section-business__items{
 		max-width: 1227px;
@@ -356,8 +396,10 @@ width:100%;
 font-size: 0;
 }
 .section-business__item--bottom{
-	padding-left: 250px;
+	/* padding-left: 250px; */
 	padding-top:12px;
+	max-width:979px;
+	margin-left:auto;
 }
 .section-business__item--top .section-business__image img{
 	margin-top: -41px;
@@ -381,9 +423,9 @@ box-shadow: -25px 20px 44px 0px rgba(84, 48, 209, 0.40);
 		padding-top:97px;
 	}
 	.section-business__item--bottom .section-business__content{
-	max-width:506px;
-		 margin-right: 41px; 
-		 padding-top: 40px;
+			max-width:506px;
+			margin-right: 41px; 
+			padding-top: 40px;
 	}
 
 	.section-business__title {
@@ -406,7 +448,7 @@ box-shadow: -25px 20px 44px 0px rgba(84, 48, 209, 0.40);
 	.section-business__item--bottom .section-business__text {
 		width:94.8%;
 	}
-	.section-business__link{
+	.btn{
 		display:inline-block;
 		color: #FFF;
 		text-align: center;
@@ -416,7 +458,7 @@ box-shadow: -25px 20px 44px 0px rgba(84, 48, 209, 0.40);
 		background: #F35B09;
 		padding:22px 26px;
 	}
-	.section-business__link:hover{
+	.btn:hover{
 		text-decoration: underline;
 	}
 .footer__container {
