@@ -61,6 +61,7 @@ display:inline-block;
 vertical-align: top;
 background-color:#e8af91;
 
+
 }
 .item:not(:last-child){
 	margin-right:20px;
@@ -68,7 +69,6 @@ background-color:#e8af91;
 .item__content{
 	width:220px;
 	height:220px;
-	
 	font-size: 20px;
 	color:#fff;
 	position:relative;
@@ -187,10 +187,9 @@ background-color:#e8af91;
 	perspective-origin:center;
 	}
 .section-3d__row--1 .item:first-child:hover .item__content{
-	transform:rotateX(30deg);
+	transform:scale3d(1.2,1.2,1.2);
 	transition: all 0.3s;
 	background-color:#ff3c53;
-	z-index:1;
 } 
 .section-3d__row--1 .item:nth-child(2):hover .item__content{
 	transform:translate3D(10px, 20px, 20px);
@@ -222,19 +221,20 @@ background-color:#e8af91;
 
 /* Flipper */
 
-.section-card__container {
-	display: inline-block;
-}
+
 .card {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.card__body {
 	position: relative;
 	perspective: 800px;
-	width:450px;
 }
 
 .card__back,
 .card__front {
 	transition: all 0.3s;
-	border-radius: 20px;
+	border-radius: 30px;
 	overflow: hidden;
 }
 .card__back {
@@ -248,15 +248,64 @@ background-color:#e8af91;
 	transform: rotateX(0deg);
 }
 
-.card:hover .card__back {
+.card__body:hover .card__back {
 	transform: rotateX(0deg);
 }
-.card:hover .card__front {
+.card__body:hover .card__front {
 	transform: rotateX(-180deg);
 }
-.section-card {
+
+
+.section-examples {
 	text-align: center;
 }	
+.section-examples__items{
+	margin-bottom: 20px;
+}
+.hover-me{
+width:150px;
+display:block;
+background-color: #ff3c53;
+color:#fff;
+margin:0 auto;
+padding:10px 20px;
+border-radius:10px;
+text-align:center;
+}
+.hover-me:hover{
+	transform: scale(1.2);
+}
+
+
+.section-skew {
+	margin-bottom: 20px;
+	text-align:left;
+}
+
+	.section-skew__items .section-skew__item:not(:last-child){
+		margin-bottom: 20px;
+	}
+
+	.section-skew__item {
+width:800px;
+padding:20px 40px;
+color:#fff;
+transform: skew(-10deg);
+	}
+	.item-skew__content{
+		transform: skew(10deg);
+	}
+.section-skew__item:nth-child(odd) {
+		background-color: rgb(255, 81, 255);
+		margin-left: 50px;
+
+	}
+	.section-skew__item:nth-child(even) {
+		background-color: rgb(250, 115, 160);
+		margin-right: 50px;
+		margin-left:auto;
+	}
+
 /* bicycle */
 .section-bicycle__container{
 	width:1000px;
