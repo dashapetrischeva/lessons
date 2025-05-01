@@ -287,10 +287,10 @@ text-align:center;
 	}
 
 	.section-skew__item {
-width:800px;
-padding:20px 40px;
-color:#fff;
-transform: skew(-10deg);
+		max-width:800px;
+		padding:20px 40px;
+		color:#fff;
+		transform: skew(-10deg);
 	}
 	.item-skew__content{
 		transform: skew(10deg);
