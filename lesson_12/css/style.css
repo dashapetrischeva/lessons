@@ -26,7 +26,7 @@ body{
 .article h1{
 	font-size: 30px;
 	margin-bottom: 30px;
-text-align: center;
+   text-align: center;
 	font-weight: 700;
 }
 .article h2{
@@ -35,7 +35,6 @@ text-align: center;
 	text-align: center;
 	font-weight: 700;
 }
-
 .article__container{
 	background-color: #ffffff; 
 	border-radius: 10px;
@@ -49,24 +48,19 @@ text-align: center;
 	margin-bottom: 20px;
 	text-align: center;
 }
-
 /* приклад плавної появи елементу при наведені на батьківський блок */
 .block__item {
 	max-width: 50%;
 	min-height: 50px;
 	background-color: #fd6fa3;
-
 	transition: max-width 3s ease 0s;
 	line-height: 50px;
 	font-size: 20px;
 	color:#fff;
 	margin:0 auto;
 }
-
-
 .block:hover .block__item {
 	max-width: 100%;
-	
 }
 
 @keyframes rotate-element {
@@ -135,14 +129,8 @@ text-align: center;
 	border:20px dashed #fff;
 }
 .block-animation--2 .block-animation__item:hover {
-
 	animation-play-state: paused;
 }
-
-
-
-
-
 /* bicycle */
 .section-bicycle__container{
 	width:1000px;
@@ -155,30 +143,28 @@ text-align: center;
 	width:15px;
 	height:300px;
 	background: #000000;
-background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(184, 184, 184, 1) 50%, rgba(0, 0, 0, 1) 100%);
-
-bottom:205px;
-right:282px;
-z-index:5;
- transform: rotate(-15deg);
+	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(184, 184, 184, 1) 50%, rgba(0, 0, 0, 1) 100%);
+	bottom:205px;
+	right:282px;
+	z-index:5;
+	transform: rotate(-15deg);
 }
 .block-2{
 	position:absolute;
 	width:20px;
 	height:350px;
 	background: #000000;
-background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(184, 184, 184, 1) 50%, rgba(0, 0, 0, 1) 100%);
-
-bottom:120px;
-right:420px;
-z-index:4;
- transform: rotate(45deg);
+	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(184, 184, 184, 1) 50%, rgba(0, 0, 0, 1) 100%);
+	bottom:120px;
+	right:420px;
+	z-index:4;
+	transform: rotate(45deg);
 }
 .block-3{
 	width:70px;
 	height:70px;
 	border-radius:50%;
- background-color: #000;
+   background-color: #000;
 	position:absolute;
 	bottom:145px;
 	right:500px;
@@ -189,24 +175,22 @@ z-index:4;
 	width:15px;
 	height:200px;
 	background: #000000;
-background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(184, 184, 184, 1) 50%, rgba(0, 0, 0, 1) 100%);
-
-bottom:180px;
-left:310px;
-z-index:5;
- transform: rotate(45deg);
+	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(184, 184, 184, 1) 50%, rgba(0, 0, 0, 1) 100%);
+	bottom:180px;
+	left:310px;
+	z-index:5;
+	transform: rotate(45deg);
 }
 .block-5{
 	position:absolute;
 	width:15px;
 	height:330px;
 	background: #000000;
-background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(184, 184, 184, 1) 50%, rgba(0, 0, 0, 1) 100%);
-
-bottom:155px;
-left:390px;
-z-index:6;
- transform: rotate(-25deg);
+	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(184, 184, 184, 1) 50%, rgba(0, 0, 0, 1) 100%);
+	bottom:155px;
+	left:390px;
+	z-index:6;
+	transform: rotate(-25deg);
 }
 .block-6{
 	border-radius:13% 87% 85% 15% / 30% 100% 0% 70% ;
@@ -219,10 +203,8 @@ z-index:6;
 	z-index:7;
 }
 .block-7{
-	
 	background: #000000;
 	background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(184, 184, 184, 1) 50%, rgba(0, 0, 0, 1) 100%);
-	
 	width:250px;
 	height:15px;
 	position:absolute;
@@ -245,12 +227,12 @@ z-index:6;
 	width:160px;
 	height:160px;
 	bottom:100px;
-left:385px;
- animation-name: rotate; 
-animation-duration: 2s;
-animation-timing-function: linear;
-animation-iteration-count: infinite; 
-z-index:10; 
+	left:385px;
+	animation-name: rotate; 
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite; 
+	z-index:10; 
 }
 .pedal-right__container{
 	position:relative;
@@ -258,32 +240,23 @@ z-index:10;
 	height:160px;
 }
 .block-8{
-	
-		position:absolute;
-		width:10px;
-		height:70px;
-	
+	position:absolute;
+	width:10px;
+	height:70px;
 	background-color: #000;
-	
-bottom:10px;
-left:60px;
-	
+	bottom:10px;
+	left:60px;
 	transform: rotate(25deg);
-
-
 }
-
 .block-9{
 	position:absolute;
 	width:40px;
 	height:10px;
 	background: #000;
-
-
 	bottom:7px;
 	left:30px;
-z-index:10;
- transform: rotate(25deg);
+	z-index:10;
+   transform: rotate(25deg);
 }
 
 .pedal-left{
@@ -304,19 +277,13 @@ z-index:10;
 	height:160px;
 }
 .block-14{
-	
-		position:absolute;
-		width:10px;
-		height:70px;
-	
+	position:absolute;
+	width:10px;
+	height:70px;
 	background-color: #000;
-	
-top:10px;
-right:60px;
-	
+	top:10px;
+	right:60px;
 	transform: rotate(25deg);
-
-
 }
 
 .block-15{
@@ -324,19 +291,15 @@ right:60px;
 	width:40px;
 	height:10px;
 	background: #000;
-
-
 	top:7px;
 	right:30px;
-z-index:10;
- transform: rotate(205deg);
+	z-index:10;
+	transform: rotate(205deg);
 }
 /* руль */
 .block-10{
-	
 	background: #000000;
 	background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(184, 184, 184, 1) 50%, rgba(0, 0, 0, 1) 100%);
-	
 	width:90px;
 	height:15px;
 	position:absolute;
@@ -346,10 +309,7 @@ z-index:10;
 	transform: rotate(-25deg);
 }
 .block-12{
-	
 	background: #000000;
-
-	
 	width:40px;
 	height:18px;
 	position:absolute;
@@ -359,10 +319,8 @@ z-index:10;
 	transform: rotate(-25deg);
 }
 .block-11{
-	
 	background: #000000;
 	background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(184, 184, 184, 1) 50%, rgba(0, 0, 0, 1) 100%);
-	
 	width:90px;
 	height:15px;
 	position:absolute;
@@ -381,25 +339,20 @@ z-index:10;
 	z-index:6;
 	transform: rotate(5deg);
 } 
-
 .wheel {
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
 	background-color: #000000;
 	border:  2px dashed #fff;
-	
 	display:inline-block;
 	padding:25px;
 	position:absolute;
-	animation-name: rotate-back; 
+	animation-name: rotate; 
 	animation-duration: 2s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-
-
 }
-
 .wheel--left {
 	bottom:60px;
 	left:100px;
@@ -408,8 +361,6 @@ z-index:10;
 	bottom:60px;
 	right:100px;
 }
-
-
 .block-16 {
 	content: "";
 	width: 20px;
@@ -460,7 +411,6 @@ z-index:10;
 	border-radius: 50%;
 	padding:10px;
 	z-index:1;
-
 }
 .spokes{
 	width: 230px;
@@ -471,27 +421,24 @@ z-index:10;
 	z-index:2;
 }
 .spoke {
-	
 	position: absolute;
 	width: 2px;
 	height: 100%;
 	background-color: #d7d7d7;
 	top: 0;
 	left: 50%;
-
 	z-index:3;
- }
- 
- .spoke:nth-child(1) { transform: rotate(0deg); }
- .spoke:nth-child(2) { transform: rotate(20deg); }
- .spoke:nth-child(3) { transform: rotate(40deg); }
- .spoke:nth-child(4) { transform: rotate(60deg); }
- .spoke:nth-child(5) { transform: rotate(80deg); }
- .spoke:nth-child(6) { transform: rotate(100deg); }
- .spoke:nth-child(7) { transform: rotate(120deg); }
- .spoke:nth-child(8) { transform: rotate(140deg); } 
- .spoke:nth-child(9) { transform: rotate(160deg); } 
- @keyframes move-asphalt {
+}
+.spoke:nth-child(1) { transform: rotate(0deg); }
+.spoke:nth-child(2) { transform: rotate(20deg); }
+.spoke:nth-child(3) { transform: rotate(40deg); }
+.spoke:nth-child(4) { transform: rotate(60deg); }
+.spoke:nth-child(5) { transform: rotate(80deg); }
+.spoke:nth-child(6) { transform: rotate(100deg); }
+.spoke:nth-child(7) { transform: rotate(120deg); }
+.spoke:nth-child(8) { transform: rotate(140deg); } 
+.spoke:nth-child(9) { transform: rotate(160deg); } 
+@keyframes move-asphalt {
 	0% {
 		right: 0%;
 	}
@@ -509,13 +456,10 @@ z-index:10;
 	position:relative;
 	overflow:clip;
 	width:100%;
-	
 	height:50px;
 }
-
 .asphalt__container::before {
 	width:7000px;
-	
 	height:50px;
 	position: absolute;
 	content: '';
@@ -523,17 +467,11 @@ z-index:10;
 	border-top:1px dashed #fff;
 	background-color: #606060;
 	position:absolute;
-	
-
-animation-name: move-asphalt; 
-animation-duration: 2s;
-animation-timing-function: linear;
-animation-iteration-count: infinite;
-
+	animation-name: move-asphalt; 
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 }
-
-
-
 .footer__container {
 	font-size: 16px;
 	text-align: left;
