@@ -71,7 +71,9 @@ line-height: 27px;
 	border-color: #FE3F3F;
 }
 .item__img{
-	height: 266px; 
+	max-width: 347px;
+   max-height: 266px;
+   overflow: clip; 
 }
 .item__img img{
 	width:100%; 
