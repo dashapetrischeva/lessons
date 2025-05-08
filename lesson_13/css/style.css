@@ -12,9 +12,6 @@ body{
 .page{
 	flex-grow: 1;
 }
-
-
-
 .faculty {
 	background: #412672;
 	padding-top: 61px;
@@ -49,7 +46,7 @@ body{
 	transition: background-color 0.3s ease 0s;
 	
 }
-	.item:hover{
+.item:hover{
 	background-color: #FFBE48;
 }
 .item__title {
@@ -79,26 +76,18 @@ line-height: 27px;
 .item__img img{
 	width:100%; 
 }
-.item__container > * :last-child{
-	margin-bottom:0;
-}
-
-
 .faculty-advantages{
 	background:#ffffff;
 	padding-top: 55px;
 	padding-bottom: 139px;
-
 }
 .faculty-advantages__container{
 	max-width:1200px;
 	margin:0 auto;
 	color: #412672;
-
 	display:flex;
 	align-items:center;
 	gap:90px;
-	
 }
 .faculty-advantages__text{
 	max-width: 518px;
@@ -118,10 +107,7 @@ line-height: 27px;
 .faculty-advantages__text ul{
 	display: flex;
    flex-direction: column;
-	
 }
-
-
 .faculty-advantages__text ul li{
 	color: #4F4F4F;
 	font-size: 20px;
@@ -138,7 +124,6 @@ line-height: 27px;
 	flex-shrink: 0;
 	background: url("../img/check.svg") 0 0 no-repeat;
 	align-self:flex-start;
-	
 }
 .faculty-advantages__image{
 	margin-right: -172px;
@@ -151,10 +136,8 @@ line-height: 27px;
 .advantages__container {
 	max-width:1200px;
 	margin:0 auto;
-	color:#fff;
-	
+	color:#fff;	
 	}
-
 	.advantages__title {
 		text-align:center;
 		font-size: 24px;
@@ -173,19 +156,15 @@ line-height: 27px;
 		align-items:center;
 		gap:10px;
 }
-
 	.item-advantages__content {
 		display:flex;
 		flex-direction: column;
 		align-items:center;
 	}
-
 	.item-advantages__title {
 		font-size: 24px;
 		font-weight: 700;
-
 	}
-
 	.item-advantages__text {
 		font-size: 15px;
 		line-height: 1.6;
