@@ -90,6 +90,7 @@ line-height: 27px;
 	display:flex;
 	align-items:center;
 	gap:90px;
+	flex-wrap: wrap;
 }
 .faculty-advantages__text{
 	max-width: 518px;
