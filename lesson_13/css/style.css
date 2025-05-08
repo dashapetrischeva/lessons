@@ -150,7 +150,7 @@ line-height: 27px;
 	.advantages__items {
 		display:flex;
 		flex-wrap: wrap;
-		gap:140px;
+		justify-content: space-between;
 	}
 
 .item-advantages {
