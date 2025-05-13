@@ -28,6 +28,8 @@ body{
 	font-size: 38px;
 	line-height: 1.21;
 	margin-bottom: 30px;
+	display:flex;
+	flex-direction: column;
 }
 .faculty__items {
 	display:flex;
@@ -93,7 +95,7 @@ line-height: 27px;
 	flex-wrap: wrap;
 }
 .faculty-advantages__text{
-	max-width: 518px;
+	flex: 1 1 518px;
 }
 .faculty-advantages__text>*:not(:last-child){
 	margin-bottom: 20px; 
@@ -107,10 +109,7 @@ line-height: 27px;
 	font-size: 22px;
 	line-height: 1.2;
 }
-.faculty-advantages__text ul{
-	display: flex;
-   flex-direction: column;
-}
+
 .faculty-advantages__text ul li{
 	color: #4F4F4F;
 	font-size: 20px;
@@ -151,6 +150,7 @@ line-height: 27px;
 		display:flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		gap:30px;
 	}
 
 .item-advantages {
