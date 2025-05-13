@@ -197,7 +197,6 @@ margin-bottom: 8px;
 	background-image:url("../img/arrow.svg");
 	background-repeat: no-repeat;
 	background-position:95%;
-	transition: 0.3 ease;
 }
 
 h3.payment-method{
