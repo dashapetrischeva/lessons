@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:regular,500" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Ecobazar</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+
+		</header>
+		<main class="page">
+
+			<form action="#" method="POST">
+				<div class="section">
+					<div class="section__container">
+						<div class="section__left">
+							<h2 class="section__title">Billing Information</h2>
+							<div class="form-row">
+								<div class="form-field">
+									<label for="first-name" class="form-field__label">First name</label>
+									<input id="first-name" placeholder="Your first name" name="form[]" type="text" required
+										class="form-field__input">
+								</div>
+								<div class="form-field">
+									<label for="last-name" class="form-field__label">Last name</label>
+									<input id="last-name" placeholder="Your last name" name="form[]" type="text" required
+										class="form-field__input">
+								</div>
+								<div class="form-field">
+									<label for="company-name" class="form-field__label">Company Name <span
+											class="gray">(optional)</span></label>
+									<input id="company-name" placeholder="Company name" name="form[]" type="text"
+										class="form-field__input">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-field">
+									<label for="street-address" class="form-field__label">Street Address</label>
+									<input id="street-address" placeholder="Street Address" name="form[]" type="text" required
+										class="form-field__input">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-field">
+									<label for="country-region" class="form-field__label">Country / Region</label>
+									<select id="country-region" name="form[]" required class="form-field__select">
+										<option value="1">Country 1</option>
+										<option value="2">Country 2</option>
+										<option value="3">Country 3</option>
+										<option value="4">Country 4</option>
+										<option value="5">Country 5</option>
+									</select>
+								</div>
+								<div class="form-field">
+									<label for="states" class="form-field__label">States</label>
+									<select id="states" name="form[]" required class="form-field__select">
+										<option value="1">State 1</option>
+										<option value="2">State 2</option>
+										<option value="3">State 3</option>
+										<option value="4">State 4</option>
+										<option value="5">State 5</option>
+									</select>
+								</div>
+								<div class="form-field">
+									<label for="zip-code" class="form-field__label">Zip Code</label>
+									<input id="zip-code" placeholder="Zip Code" name="form[]" type="text" required
+										class="form-field__input">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-field">
+									<label for="email" class="form-field__label">Email Address</label>
+									<input id="email" placeholder="Email Address" name="form[]" type="email" required
+										class="form-field__input">
+								</div>
+								<div class="form-field">
+									<label for="phone" class="form-field__label">Phone</label>
+									<input id="phone" placeholder="Phone number" name="form[]" type="tel" required
+										class="form-field__input">
+								</div>
+							</div>
+							<div class="form-row form-row--border">
+								<div class="form-checkbox">
+									<label class="checkbox">
+										<input name="form[]" type="checkbox" required class="checkbox__input">
+										<span class="checkbox__label">Ship to a different address</span>
+									</label>
+								</div>
+							</div>
+							<h2 class="section__title">Additional Info</h2>
+							<div class="form-row">
+								<div class="form-field">
+									<label for="additional-info" class="form-field__label">Order Notes (optional)</label>
+									<textarea name="form[]" id="additional-info" class="form-field__textarea"
+										placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="section__right">
+							<h3>Order Summery</h3>
+							<div class="products">
+								<div class="cart-product">
+
+									<a href="#" class="cart-product__image"><img src="img/green-capsicum.webp"
+											alt="Green Capsicum">
+									</a>
+									<a href="#" class="cart-product__name">Green Capsicum</a>
+
+									<div class="cart-product__count">x5</div>
+									<div class="cart-product__price">$70.00</div>
+								</div>
+								<div class="cart-product">
+
+									<a href="#" class="cart-product__image"><img src="img/red-capsicum.webp"
+											alt="Red Capsicum"></a>
+									<a href="#" class="cart-product__name">Red Capsicum</a>
+									<div class="cart-product__count">x1</div>
+									<div class="cart-product__price">$14.00</div>
+								</div>
+							</div>
+							<div class="subtotal">
+								<div class="subtotal__label">Subtotal:</div>
+								<div class="subtotal__value">$84.00</div>
+							</div>
+							<div class="shipping">
+								<div class="shipping__label">Shipping:</div>
+								<div class="shipping__value">Free</div>
+							</div>
+							<div class="total">
+								<div class="total__label">Total:</div>
+								<div class="total__value">$84.00</div>
+							</div>
+							<h3 class="payment-method">Payment Method</h3>
+							<div class="form-radio-row">
+								<div class="form-radio">
+									<label class="radio">
+										<input name="form[]" type="radio" checked class="radio__input" value="1">
+										<span class="radio__label">Cash on Delivery</span>
+									</label>
+								</div>
+								<div class="form-radio">
+									<label class="radio">
+										<input name="form[]" type="radio" required class="radio__input" value="2">
+										<span class="radio__label">Paypal</span>
+									</label>
+								</div>
+								<div class="form-radio">
+									<label class="radio">
+										<input name="form[]" type="radio" required class="radio__input" value="3">
+										<span class="radio__label">Amazon Pay</span>
+									</label>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-field">
+									<button class="submit">Place Order</button>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</form>
+
+
+
+		</main>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+
+</html>
