@@ -278,7 +278,7 @@ body{
 	text-decoration: underline;
 }
 @container (min-width: 43.75em) {
-	.container__text {
+	.container p {
 		font-size: 1.25rem;
 	}
 }
