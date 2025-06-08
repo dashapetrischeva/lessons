@@ -7,6 +7,9 @@
 	--colorMain4:#f0f7a9;
 	--colorMain5:#a8fcf6;
 }
+body, html{
+	height:100%;
+}
 html{
 	  scroll-behavior:smooth;  
 }
