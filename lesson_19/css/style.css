@@ -278,10 +278,11 @@ body{
 	text-decoration: underline;
 }
 @container (min-width: 43.75em) {
-	.container p {
+	.container__text {
 		font-size: 1.25rem;
 	}
 }
+
 @media (prefers-color-scheme: dark) {
   .max{
     background: #0a5a74;
