@@ -142,7 +142,7 @@ body{
 	right:16px;
 	opacity:0;
 	visibility:hidden;
-
+	transition: all 0.3s ease;
 }
 .product-card__wishlist{
 	width:40px;
@@ -190,13 +190,15 @@ body{
 	padding: 3px 8px;
 }
 	.product-card__image{
-aspect-ratio: 254 / 230;
+		
+		width:100%;
+		height:100%;
 	}
 .product-card__image img{
 		width:100%;
 		height:100%;
-		object-fit: contain;
-
+		object-fit: cover;
+aspect-ratio: 246 / 246;
 	}
 	
 .product-card__content{
@@ -268,6 +270,7 @@ aspect-ratio: 254 / 230;
 			width: 102px;
 			height: 102px;
 			padding:5px;
+			overflow:hidden;
 		}
 .item-column__image img{
 	width:100%;
@@ -449,13 +452,13 @@ background: #F8F3EC;
 	align-self: center; 
 	justify-self: start;
 }
-.catalog__button a {
+.catalog__button span {
     display: flex;
     gap: 10px;
-    padding: 8px 30px;
+    padding: 9px 30px;
     background-color: #DBCCBA;
 }
-	.catalog__button a::after {
+	.catalog__button span::after {
 	content: "";
     min-width: 23px;
     min-height: 14px;
@@ -471,14 +474,17 @@ grid-row: span 2;
 			align-self: center;
 		}
 .card-catalog__image{
-aspect-ratio: 1 / 1;
+	aspect-ratio: 1 / 1;
+	background-color: #DBCCBA;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
 }
-		.card-catalog__image img{
-			
+		.card-catalog__image img{			
 			object-fit: cover;
 			width: 100%;
 			height: 100%;	
-         
+         transition: all 0.5s;
 		}
 		.card-catalog__info{
 			padding-top:14px;
@@ -496,11 +502,7 @@ aspect-ratio: 1 / 1;
 				gap:20px;
 		}
 
-			.card-catalog__wishlist {
-		}
-
-			.card-catalog__cart {
-		}
+	
 
 @media (max-width: 1050px) {
 .catalog__container {
@@ -565,11 +567,18 @@ aspect-ratio: 1 / 1;
 @media (max-width: 380px) {
 .item-column__text{
 	padding-right:20px;
+	
+}
+.featured-products__columns{
+	justify-items:stretch;
 }
 }
 @media (any-hover: hover){
 .section-header__link:hover, .item-news__read-more:hover{
 			text-decoration: underline;
+		}
+		.catalog__button:hover{
+			border: 1px solid #2C2C2C;
 		}
 .product-card:hover{
 	box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
@@ -605,6 +614,12 @@ aspect-ratio: 1 / 1;
 	visibility:hidden;
 	
 }
+.card-catalog__name:hover{
+	color:#ac8f6b;
+}
+.card-catalog__image:hover img {
+		transform: scale(1.1);
+	}
 .product-card__add-to-cart:hover, .item-column__add-to-cart:hover{
 	background-color:	#00B207;
 }
