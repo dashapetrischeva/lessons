@@ -1,4 +1,5 @@
 @import url("reset.css");
+@import url("keyframes.css");
 body{
    font-family: "Fira Sans", sans-serif;  
 	font-size: 17px;
@@ -48,7 +49,7 @@ body{
 	margin-bottom: 20px;
 	text-align: center;
 }
-/* приклад плавної появи елементу при наведені на батьківський блок */
+
 .block__item {
 	max-width: 50%;
 	min-height: 50px;
@@ -63,30 +64,7 @@ body{
 	max-width: 100%;
 }
 
-@keyframes rotate-element {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
-}
-@keyframes rotate-back {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(-360deg);
-	}
-}
-@keyframes move {
-	0% {
-		left:0;
-	}
-	100% {
-	left:840px;
-	}
-}
+
 .block-animation:not(:last-child){
 	margin-bottom: 20px;
 }
@@ -131,6 +109,45 @@ body{
 .block-animation--2 .block-animation__item:hover {
 	animation-play-state: paused;
 }
+
+
+
+
+
+	.animation-buttons__item{
+		width:220px;
+		height:50px;
+		display:inline-block;
+		vertical-align: top;
+		background-color:#ff7ab6;
+		border-radius:20px;
+		
+		}
+		.animation-buttons__item:not(:last-child){
+			margin-right:20px;
+		}
+	.animation-buttons__item a{
+		color:#fff;
+		font-size: 20px;
+		line-height: 50px;
+	}
+	
+#btn-1{
+	animation-name: change-color; 
+	animation-duration: 3s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite; 
+}
+
+#btn-2{
+	animation-name: float; 
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite; 
+}
+
+
+
 /* bicycle */
 .section-bicycle__container{
 	width:1000px;
@@ -213,15 +230,8 @@ body{
 	z-index:6;
 	transform: rotate(5deg);
 }
-/* педали */
-@keyframes rotate {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
-}
+
+
 .pedal-right{
 	position:absolute;
 	width:160px;
@@ -297,7 +307,7 @@ body{
 	z-index:10;
 	transform: rotate(205deg);
 }
-/* руль */
+
 .block-10{
 	background: #000000;
 	background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(184, 184, 184, 1) 50%, rgba(0, 0, 0, 1) 100%);
@@ -421,14 +431,7 @@ body{
 .spoke:nth-child(7) { transform: rotate(120deg); }
 .spoke:nth-child(8) { transform: rotate(140deg); } 
 .spoke:nth-child(9) { transform: rotate(160deg); } 
-@keyframes move-asphalt {
-	0% {
-		right: 0%;
-	}
-	100% {
-		right: -50%;
-	}
-}
+
 .asphalt {
 	width:100%;
 	height:50px;
