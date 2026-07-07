@@ -1,6 +1,6 @@
 @import url("reset.css");
 
-/* Вкладеність */
+
 
 .nesting > ul > li{
 	color:red;
@@ -25,7 +25,7 @@
 }
 	
 
-/* Стаття */
+
 *{
 	color:#5d5d5d
 }
