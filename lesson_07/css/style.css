@@ -264,7 +264,6 @@ line-height: 27px;
 	font-size: 22px;
 	line-height: 1.2;
 }
-/* Це зроблено із-зі line-height у li, я знаю що відступи йдуть згори до низу але це відноситься до списку, я так роблю line-height */
 .faculty-text ul{
 	padding-top: 15px;
 }
